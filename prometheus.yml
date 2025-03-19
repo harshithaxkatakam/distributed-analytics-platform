@@ -1,0 +1,7 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'cassandra'
+    static_configs:
+      - targets: ['seed-node:7199', 'node1:7199', 'node2:7199', 'node3:7199']

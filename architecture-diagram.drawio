@@ -1,0 +1,141 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
+  <diagram name="Page-1" id="hOt3aaJE2i1la_uHxHQl">
+    <mxGraphModel dx="6785" dy="2645" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3mK3ZxAr1NEP0lpOnvrv-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3006" y="-513" width="1481" height="1085" as="geometry" />
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-14" value="Multi-node Cassandra Cluster" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=default;fontColor=#121212;" parent="1" vertex="1">
+          <mxGeometry x="-2278" y="-214.75" width="614" height="427.5" as="geometry" />
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-4" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;fillColor=#FFFFFF;strokeColor=default;fontColor=#121212;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="RZxNgKuC2ALTs_vsOK4A-3" target="RZxNgKuC2ALTs_vsOK4A-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-793" y="109" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-1" value="seed-node&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Cassandra&lt;/font&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FFFFFF;strokeColor=default;fontColor=#121212;" parent="1" vertex="1">
+          <mxGeometry x="-2234" y="-63" width="120" height="143" as="geometry" />
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-3" value="node3&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Cassandra&lt;/font&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FFFFFF;strokeColor=default;fontColor=#121212;" parent="1" vertex="1">
+          <mxGeometry x="-2021" y="-168" width="100" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-6" value="node2&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;Cassandra&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FFFFFF;strokeColor=default;fontColor=#121212;" parent="1" vertex="1">
+          <mxGeometry x="-1794" y="-36" width="95" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-7" value="node1&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;Cassandra&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FFFFFF;strokeColor=default;fontColor=#121212;" parent="1" vertex="1">
+          <mxGeometry x="-2021" y="22" width="100" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;fillColor=#FFFFFF;strokeColor=default;fontColor=#121212;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="RZxNgKuC2ALTs_vsOK4A-1" target="RZxNgKuC2ALTs_vsOK4A-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;fillColor=#FFFFFF;strokeColor=default;fontColor=#121212;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="RZxNgKuC2ALTs_vsOK4A-7" target="RZxNgKuC2ALTs_vsOK4A-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;fillColor=#FFFFFF;strokeColor=default;fontColor=#121212;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="RZxNgKuC2ALTs_vsOK4A-6" target="RZxNgKuC2ALTs_vsOK4A-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1924" y="-95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-18" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;Docker Container Runtime&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#121212;strokeColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-2625" y="234" width="965" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-38" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#FFFFFF;strokeColor=default;fontColor=#121212;" parent="1" source="RZxNgKuC2ALTs_vsOK4A-46" target="RZxNgKuC2ALTs_vsOK4A-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1837" y="-83.23012726893376" as="sourcePoint" />
+            <mxPoint x="-1931" y="83" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-41" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#FFFFFF;strokeColor=default;fontColor=#121212;" parent="1" source="RZxNgKuC2ALTs_vsOK4A-46" target="RZxNgKuC2ALTs_vsOK4A-40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1837" y="-99.61830269847451" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-26" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;fillColor=#FFFFFF;strokeColor=default;fontColor=#121212;" parent="1" source="RZxNgKuC2ALTs_vsOK4A-20" target="RZxNgKuC2ALTs_vsOK4A-46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1919.25" y="-141.99999999999977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-20" value="Sensor-1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=default;fontColor=#121212;" parent="1" vertex="1">
+          <mxGeometry x="-2967" y="-246" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-27" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;fillColor=#FFFFFF;strokeColor=default;fontColor=#121212;" parent="1" source="RZxNgKuC2ALTs_vsOK4A-21" target="RZxNgKuC2ALTs_vsOK4A-46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1919.25" y="-141.99999999999977" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-21" value="Sensor-2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=default;fontColor=#121212;" parent="1" vertex="1">
+          <mxGeometry x="-2967" y="-146" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-28" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;fillColor=#FFFFFF;strokeColor=default;fontColor=#121212;" parent="1" source="RZxNgKuC2ALTs_vsOK4A-22" target="RZxNgKuC2ALTs_vsOK4A-46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1919.25" y="-141.99999999999977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-22" value="Sensor-3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=default;fontColor=#121212;" parent="1" vertex="1">
+          <mxGeometry x="-2967" y="-41" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-29" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#FFFFFF;strokeColor=default;fontColor=#121212;" parent="1" source="RZxNgKuC2ALTs_vsOK4A-23" target="RZxNgKuC2ALTs_vsOK4A-46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1919.25" y="-141.99999999999977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-23" value="Sensor-4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=default;fontColor=#121212;" parent="1" vertex="1">
+          <mxGeometry x="-2967" y="56" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-30" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;fillColor=#FFFFFF;strokeColor=default;fontColor=#121212;" parent="1" source="RZxNgKuC2ALTs_vsOK4A-25" target="RZxNgKuC2ALTs_vsOK4A-46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1919.25" y="-141.99999999999977" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-25" value="Sensor-5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=default;fontColor=#121212;" parent="1" vertex="1">
+          <mxGeometry x="-2967" y="159" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-31" value="Produce real-time data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;rotation=0;fontColor=#121212;" parent="1" vertex="1">
+          <mxGeometry x="-2877" y="-27" width="129" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-32" value="Produce real-time data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;rotation=15;fontColor=#121212;" parent="1" vertex="1">
+          <mxGeometry x="-2875" y="-93" width="129" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-33" value="Produce real-time data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;rotation=-20;fontColor=#121212;" parent="1" vertex="1">
+          <mxGeometry x="-2887" y="39" width="129" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-36" value="Produce real-time data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;rotation=-30;fontColor=#121212;" parent="1" vertex="1">
+          <mxGeometry x="-2884" y="95" width="129" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-37" value="Produce real-time data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;rotation=30;fontColor=#121212;" parent="1" vertex="1">
+          <mxGeometry x="-2840" y="-141" width="129" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-39" value="Consume&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;r&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;eal-time&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: left;&quot;&gt;data&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontColor=#121212;" parent="1" vertex="1">
+          <mxGeometry x="-2482" y="-30" width="189" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-40" value="zookeeper-node&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Zookeeper&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=default;fontColor=#121212;" parent="1" vertex="1">
+          <mxGeometry x="-2639" y="-213" width="157" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="3mK3ZxAr1NEP0lpOnvrv-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RZxNgKuC2ALTs_vsOK4A-43" target="RZxNgKuC2ALTs_vsOK4A-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-43" value="&lt;div&gt;&lt;font style=&quot;background-color: initial; font-size: 19px;&quot;&gt;Prometheus + Grafana&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=default;fontColor=#121212;" parent="1" vertex="1">
+          <mxGeometry x="-2058" y="-406" width="174" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-46" value="kakfa-node&lt;div style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ;&quot;&gt;&lt;br style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ;&quot;&gt;&lt;div style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ;&quot;&gt;&lt;font style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; font-size: 19px;&quot;&gt;Kafka&lt;/font&gt;&lt;br style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ;&quot;&gt;&lt;div style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ;&quot;&gt;&lt;br style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / .5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=default;fontColor=#121212;" parent="1" vertex="1">
+          <mxGeometry x="-2626" y="-41" width="131" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-47" value="&lt;font&gt;Coordinate&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontColor=#121212;" parent="1" vertex="1">
+          <mxGeometry x="-2551" y="-90" width="96" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-49" value="Visualizations" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontColor=#121212;" parent="1" vertex="1">
+          <mxGeometry x="-1970" y="-262" width="116" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="RZxNgKuC2ALTs_vsOK4A-52" value="Analytics" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontColor=#121212;" parent="1" vertex="1">
+          <mxGeometry x="-2052" y="-262" width="82" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="3mK3ZxAr1NEP0lpOnvrv-6" value="&lt;font style=&quot;font-size: 35px;&quot;&gt;Distributed Analytics Platform&amp;nbsp; - System Architecture&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2607" y="499" width="825" height="54" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
